@@ -22,4 +22,4 @@ Bem-vindo ao guia de marca da Tweed. Este repositório contém todos os padrões
 [Diretrizes de tom](./tom-de-voz/tom-de-voz.md)
 
 ## Componentes
-[Componentes](.componentes/componentes.md)
+[Componentes](./componentes/componentes.md)
