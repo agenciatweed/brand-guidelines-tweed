@@ -12,12 +12,12 @@
 - Inter 18pt Regular Italic: Ênfase em Textos menores
 
 ## Links para os arquivos das fontes:
-- [Link para a Fonte Inter 28pt Bold](./tipografia/Inter_28pt-Bold.ttf)
-- [Link para a Fonte Inter 28pt Bold Italic](./tipografia/Inter_28pt-BoldItalic.ttf)
-- [Link para a Fonte Inter 24pt Medium](./tipografia/Inter_24pt-Bold.ttf)
-- [Link para a Fonte Inter 24pt Medium Italic](./tipografia/Inter_24pt-MediumItalic.ttf)
-- [Link para a Fonte Inter 18pt Regular](./tipografia/Inter_18pt-Regular.ttf)
-- [Link para a Fonte Inter 18pt Regular Italic](./tipografia/Inter_18pt-Italic.ttf)
+- [Link para a Fonte Inter 28pt Bold](./tipografia/inter-28pt-bold.ttf)
+- [Link para a Fonte Inter 28pt Bold Italic](./tipografia/inter-28pt-bolditalic.ttf)
+- [Link para a Fonte Inter 24pt Medium](./tipografia/inter-24pt-medium.ttf)
+- [Link para a Fonte Inter 24pt Medium Italic](./tipografia/inter-24pt-mediumitalic.ttf)
+- [Link para a Fonte Inter 18pt Regular](./tipografia/inter-18pt-regular.ttf)
+- [Link para a Fonte Inter 18pt Regular Italic](./tipografia/inter-18pt-italic.ttf)
 
 ## Embed codes para fallback caso não seja possível utilizar os arquivos TTF fornecidos:
 ### Link - Embed code in the <head> of your html:
