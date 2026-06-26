@@ -20,19 +20,19 @@
 - [Link para a Fonte Inter 18pt Regular Italic](./tipografia/Inter_18pt-Italic.ttf)
 
 ## Embed codes para fallback caso não seja possível utilizar os arquivos TTF fornecidos:
-### <link> - Embed code in the <head> of your html:
+### Link - Embed code in the <head> of your html:
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 ```
-### @import - Embed code in the <head> of your html:
+### Import - Embed code in the <head> of your html:
 ```
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 </style>
 ```
-### <link> - Inter: CSS class for a variable style:
+### Link e Import - Inter: CSS class for a variable style:
 ```
 // <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
