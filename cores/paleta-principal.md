@@ -9,3 +9,7 @@
 - Teal Tweed: Headlines, CTAs, elementos destacados
 - Azul-Escuro: Backgrounds, espaço negativo
 - Branco: Texto corpo
+
+## Imagens de referência
+[Link para a imagem de referência da cor Teal Tweed](./cores/cores_teal_tweed_08ffb1)
+[Link para a imagem de referência da cor Azul Escuro](./cores/cores_azul_escuro_0b0c13)
