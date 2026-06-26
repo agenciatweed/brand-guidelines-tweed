@@ -7,6 +7,7 @@ Bem-vindo ao guia de marca da Tweed. Este repositório contém todos os padrões
 - [Tipografia](#tipografia)
 - [Logos](#logos)
 - [Tom de Voz](#tom-de-voz)
+- [Componentes](#componentes)
 
 ## Cores
 [Link para a paleta de cores](./cores/paleta-principal.md)
@@ -19,3 +20,6 @@ Bem-vindo ao guia de marca da Tweed. Este repositório contém todos os padrões
 
 ## Tom de Voz
 [Diretrizes de tom](./tom-de-voz/tom-de-voz.md)
+
+## Componentes
+[Componentes](.componentes/componentes.md)
