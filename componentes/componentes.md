@@ -10,6 +10,7 @@ b) Não trabalhamos com quem mede marketing por quantidade de peças entregues. 
 c) Não funcionamos bem com quem quer terceirizar a marca inteira sem participar da construção. ('handoff')
 d) Não vendemos fórmula pronta, pacote fechado nem promessa de resultado garantido. ('formula')
 Para ilustrar cada uma dessas seções, temos um ícone que deve ser utilizado, e a referência de cada um está logo abaixo nas 'Imagens de Referência'.
+- Nos depoimentos, temos uma imagem de '5 estrelas' para mostrar que o serviço recebeu aquela avaliação. A imagem que deve ser usada para as 5 estrelas está logo abaixo nas 'Imagens de Referência'.
 
 
 ## Imagens de referência
@@ -21,3 +22,4 @@ Para ilustrar cada uma dessas seções, temos um ícone que deve ser utilizado, 
 - [Link para o ícone 'overload'](./overload.svg)
 - [Link para o ícone 'handoff'](./handoff.svg)
 - [Link para o ícone 'formula'](./formula.svg)
+- [Link para a imagem de 5 estrelas](./5estrelas.png)
