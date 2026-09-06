@@ -22,4 +22,4 @@ Para ilustrar cada uma dessas seções, temos um ícone que deve ser utilizado, 
 - [Link para o ícone 'overload'](./overload.svg)
 - [Link para o ícone 'handoff'](./handoff.svg)
 - [Link para o ícone 'formula'](./formula.svg)
-- [Link para a imagem de 5 estrelas](./5estrelas.png)
+- [Link para a imagem de 5 estrelas](./5stars.png)
