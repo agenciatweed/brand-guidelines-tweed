@@ -15,7 +15,7 @@ Para ilustrar cada uma dessas seções, temos um ícone que deve ser utilizado, 
 
 ## Imagens de referência
 - [Link para a imagem do Cachorrinho Tweed](./tweed-cachorrinho-github.png)
-- [Link para a imagem de Felipe e Cintia](./felipe-e-cintia.jpg)
+- [Link para a imagem de Felipe e Cintia](./felipe-e-cintia-2.jpg)
 - [Link para a imagem de Marcas Atendidas Horizontal](./marcas-atendidas.png)
 - [Link para a imagem de Marcas Atendidas Vertical](./marcas-mobile.png)
 - [Link para o ícone 'lowest-price'](./lowest-price.svg)
