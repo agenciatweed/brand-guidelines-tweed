@@ -2,7 +2,7 @@
 
 ## Componentes decorativos
 - Cachorrinho Tweed: uma imagem que representa o nosso cachorrinho Tweed, que utilizamos como decoração discreta em algumas peças de apresentação.
-- Felipe e Cintia: uma foto do Felipe e da Cintia, fundadores da Agência Tweed. Pode ser utilizado em slides de apresentação que falem sobre Quem é a Agência Tweed
+- Felipe e Cintia: uma foto do Felipe e da Cintia, fundadores da Agência Tweed. Pode ser utilizado em slides de apresentação que falem sobre Quem é a Agência Tweed. Temos 3 versões da foto: uma em proporção 4:3, uma em proporção quadrada, e uma em proporção wide, para utilizar conforme a necessidade.
 - Marcas Atendidas: uma imagem que contém logotipos de alguns clientes relevantes que já atendemos, que pode ser utilizado para agregar autoridade à materiais como propostas e apresentações da Tweed. Para usos horizontais, utilize a imagem marcas-atendidas.png, e para versões horizontais, utilize a imagem marcas-mobile.png
 - Ícones para seções: em nossas propostas, temos uma seção que fala que "Talvez a Tweed não seja para você.". Nesta seção, fazemos 4 afirmações:
 a) Não somos a opção de quem está procurando o menor preço do mercado. ('lowest-price')
@@ -15,7 +15,9 @@ Para ilustrar cada uma dessas seções, temos um ícone que deve ser utilizado, 
 
 ## Imagens de referência
 - [Link para a imagem do Cachorrinho Tweed](./tweed-cachorrinho-github.png)
-- [Link para a imagem de Felipe e Cintia](./felipe-e-cintia-2.jpg)
+- [Link para a imagem de Felipe e Cintia, proporção normal](./felipe-e-cintia-3.jpg)
+- [Link para a imagem de Felipe e Cintia, proporção quadrada](./felipe-e-cintia-3-square.jpg)
+- [Link para a imagem de Felipe e Cintia, proporção wide](./felipe-e-cintia-3-wide.jpg)
 - [Link para a imagem de Marcas Atendidas Horizontal](./marcas-atendidas.png)
 - [Link para a imagem de Marcas Atendidas Vertical](./marcas-mobile.png)
 - [Link para o ícone 'lowest-price'](./lowest-price.svg)
