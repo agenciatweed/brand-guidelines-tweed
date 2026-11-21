@@ -3,7 +3,7 @@
 ## Componentes decorativos
 - Cachorrinho Tweed: uma imagem que representa o nosso cachorrinho Tweed, que utilizamos como decoração discreta em algumas peças de apresentação.
 - Felipe e Cintia: uma foto do Felipe e da Cintia, fundadores da Agência Tweed. Pode ser utilizado em slides de apresentação que falem sobre Quem é a Agência Tweed. Temos 3 versões da foto: uma em proporção 4:3, uma em proporção quadrada, e uma em proporção wide, para utilizar conforme a necessidade.
-- Marcas Atendidas: uma imagem que contém logotipos de alguns clientes relevantes que já atendemos, que pode ser utilizado para agregar autoridade à materiais como propostas e apresentações da Tweed. Para usos horizontais, utilize a imagem marcas-atendidas.png, e para versões horizontais, utilize a imagem marcas-mobile.png
+- Marcas Atendidas: uma imagem que contém logotipos de alguns clientes relevantes que já atendemos, que pode ser utilizado para agregar autoridade à materiais como propostas e apresentações da Tweed. Para usos horizontais, utilize a imagem marcas-atendidas.png, e para versões verticais, utilize a imagem marcas-mobile.png
 - Ícones para seções: em nossas propostas, temos uma seção que fala que "Talvez a Tweed não seja para você.". Nesta seção, fazemos 4 afirmações:
 a) Não somos a opção de quem está procurando o menor preço do mercado. ('lowest-price')
 b) Não trabalhamos com quem mede marketing por quantidade de peças entregues. ('overload')
