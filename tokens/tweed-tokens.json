@@ -1,0 +1,511 @@
+{
+  "name": "Agência Tweed",
+  "version": "2.0",
+  "themes": [
+    "escuro",
+    "claro"
+  ],
+  "color": {
+    "palette": {
+      "teal": {
+        "name": "Teal Tweed",
+        "hex": "#08ffb1",
+        "origin": "Original",
+        "group": "institucional",
+        "usage": "O acento da marca. Logotipo, headlines de destaque, CTAs, números e o que precisa chamar atenção sobre fundo escuro. Nunca texto sobre fundo claro."
+      },
+      "azul-escuro": {
+        "name": "Azul-Escuro",
+        "hex": "#0b0c13",
+        "origin": "Original",
+        "group": "institucional",
+        "usage": "Fundo padrão da marca e espaço negativo. No tema claro, é a cor do texto e do logotipo."
+      },
+      "branco": {
+        "name": "Branco",
+        "hex": "#ffffff",
+        "origin": "Original",
+        "group": "institucional",
+        "usage": "Texto sobre Azul-Escuro. No tema claro, é o fundo da página."
+      },
+      "noite": {
+        "name": "Noite",
+        "hex": "#11131c",
+        "origin": "Site",
+        "group": "escuro",
+        "usage": "Superfície elevada sobre Azul-Escuro: chips, citações, campos."
+      },
+      "noite-alta": {
+        "name": "Noite Alta",
+        "hex": "#171a25",
+        "origin": "Site",
+        "group": "escuro",
+        "usage": "Segundo degrau no escuro: hover de superfícies, áreas internas."
+      },
+      "prata": {
+        "name": "Prata",
+        "hex": "#d3d7df",
+        "origin": "Site",
+        "group": "escuro",
+        "usage": "Texto secundário sobre superfícies tingidas de teal (cards, faixas com luz)."
+      },
+      "cinza": {
+        "name": "Cinza",
+        "hex": "#a7acb9",
+        "origin": "Site",
+        "group": "escuro",
+        "usage": "Texto secundário sobre Azul-Escuro: leads, parágrafos de apoio, links do rodapé."
+      },
+      "cinza-fraco": {
+        "name": "Cinza Fraco",
+        "hex": "#868da1",
+        "origin": "Site",
+        "group": "escuro",
+        "usage": "Texto terciário: legendas, metadados, números de etapa em repouso."
+      },
+      "teal-luz": {
+        "name": "Teal Luz",
+        "hex": "#5cffcb",
+        "origin": "Site",
+        "group": "escuro",
+        "usage": "Hover do botão teal. Só estado, nunca cor de peça."
+      },
+      "nevoa": {
+        "name": "Névoa",
+        "hex": "#f4f5f8",
+        "origin": "Proposta",
+        "group": "claro",
+        "usage": "Superfície elevada no claro: cards, citações, blocos sobre Branco."
+      },
+      "gelo": {
+        "name": "Gelo",
+        "hex": "#eceef3",
+        "origin": "Proposta",
+        "group": "claro",
+        "usage": "Segundo degrau no claro: faixas, tabelas, rodapé de documento."
+      },
+      "grafite": {
+        "name": "Grafite",
+        "hex": "#4a4f60",
+        "origin": "Proposta",
+        "group": "claro",
+        "usage": "Texto secundário sobre Branco, Névoa e Gelo."
+      },
+      "grafite-fraco": {
+        "name": "Grafite Fraco",
+        "hex": "#5f6578",
+        "origin": "Proposta",
+        "group": "claro",
+        "usage": "Texto terciário no claro: legendas, metadados, notas."
+      },
+      "teal-tinta": {
+        "name": "Teal Tinta",
+        "hex": "#00704d",
+        "origin": "Proposta",
+        "group": "claro",
+        "usage": "O teal legível no claro: eyebrow, ênfase em itálico, links, números de destaque e foco."
+      }
+    },
+    "semantic": {
+      "superficie": {
+        "escuro": "{tweed-azul-escuro}",
+        "claro": "{tweed-branco}",
+        "usage": "Fundo da página no tema."
+      },
+      "superficie-elevada": {
+        "escuro": "{tweed-noite}",
+        "claro": "{tweed-nevoa}",
+        "usage": "Card simples, citação, chip, campo."
+      },
+      "superficie-elevada-2": {
+        "escuro": "{tweed-noite-alta}",
+        "claro": "{tweed-gelo}",
+        "usage": "Segundo degrau: faixas, tabelas, hover de superfície."
+      },
+      "texto": {
+        "escuro": "{tweed-branco}",
+        "claro": "{tweed-azul-escuro}",
+        "usage": "Texto principal e títulos (19,51:1 sobre a superfície nos dois temas)."
+      },
+      "texto-suave": {
+        "escuro": "{tweed-cinza}",
+        "claro": "{tweed-grafite}",
+        "usage": "Leads, parágrafos de apoio, links de navegação (8,59:1 no escuro, 8,14:1 no claro)."
+      },
+      "texto-fraco": {
+        "escuro": "{tweed-cinza-fraco}",
+        "claro": "{tweed-grafite-fraco}",
+        "usage": "Legendas, metadados, números em repouso (5,89:1 no escuro, 5,80:1 no claro)."
+      },
+      "texto-tingido": {
+        "escuro": "{tweed-prata}",
+        "claro": "{tweed-grafite}",
+        "usage": "Texto secundário dentro de cards tingidos de teal."
+      },
+      "acento": {
+        "escuro": "{tweed-teal}",
+        "claro": "{tweed-teal-tinta}",
+        "usage": "Acento como TEXTO: eyebrow, ênfase em itálico, links, números de destaque (14,82:1 no escuro, 6,13:1 no claro)."
+      },
+      "acento-forte": {
+        "escuro": "{tweed-teal}",
+        "claro": "{tweed-teal}",
+        "usage": "Acento como SUPERFÍCIE: blocos, marcador de seleção, faixas. Teal nos dois temas; sobre ele, só Azul-Escuro."
+      },
+      "acento-lavado": {
+        "escuro": "rgba(8, 255, 177, 0.08)",
+        "claro": "rgba(0, 112, 77, 0.08)",
+        "usage": "Fundo do quadro de ícone e realces suaves."
+      },
+      "acento-borda": {
+        "escuro": "rgba(8, 255, 177, 0.24)",
+        "claro": "rgba(0, 112, 77, 0.28)",
+        "usage": "Borda de destaque: navbar rolada, chip em hover, card simples ativo."
+      },
+      "botao-primario": {
+        "escuro": "{tweed-teal}",
+        "claro": "{tweed-azul-escuro}",
+        "usage": "Fundo do botão primário: teal no escuro; Azul-Escuro no claro."
+      },
+      "botao-primario-texto": {
+        "escuro": "{tweed-azul-escuro}",
+        "claro": "{tweed-teal}",
+        "usage": "Rótulo do botão primário: Azul-Escuro sobre teal, teal sobre Azul-Escuro (14,82:1 nos dois)."
+      },
+      "botao-primario-hover": {
+        "escuro": "{tweed-teal-luz}",
+        "claro": "{tweed-noite-alta}",
+        "usage": "Fundo do botão primário em hover."
+      },
+      "botao-ghost-fundo": {
+        "escuro": "rgba(11, 12, 19, 0.55)",
+        "claro": "rgba(255, 255, 255, 0.6)",
+        "usage": "Vidro do botão ghost (com backdrop-filter)."
+      },
+      "fio": {
+        "escuro": "rgba(255, 255, 255, 0.09)",
+        "claro": "rgba(11, 12, 19, 0.1)",
+        "usage": "Fio de 1 px: bordas, divisórias de etapa, rodapé."
+      },
+      "fio-suave": {
+        "escuro": "rgba(255, 255, 255, 0.055)",
+        "claro": "rgba(11, 12, 19, 0.06)",
+        "usage": "Fio leve: grade do hero, divisórias internas."
+      },
+      "fio-forte": {
+        "escuro": "rgba(255, 255, 255, 0.28)",
+        "claro": "rgba(11, 12, 19, 0.28)",
+        "usage": "Contorno do botão ghost, marcador da trilha."
+      },
+      "contorno-campo": {
+        "escuro": "rgba(255, 255, 255, 0.4)",
+        "claro": "rgba(11, 12, 19, 0.5)",
+        "usage": "Borda de campo de formulário: 3:1 ou mais nos dois temas."
+      },
+      "foco": {
+        "escuro": "{tweed-teal}",
+        "claro": "{tweed-teal-tinta}",
+        "usage": "Anel de foco: 2 px sólido, afastado 3 px."
+      },
+      "logo": {
+        "escuro": "{tweed-teal}",
+        "claro": "{tweed-azul-escuro}",
+        "usage": "Tinta do logotipo no tema: teal no escuro, Azul-Escuro no claro."
+      },
+      "vidro": {
+        "escuro": "rgba(11, 12, 19, 0.72)",
+        "claro": "rgba(255, 255, 255, 0.8)",
+        "usage": "Navbar flutuante (com blur 14 px)."
+      },
+      "anel": {
+        "escuro": "rgba(8, 255, 177, 0.95)",
+        "claro": "rgba(0, 112, 77, 0.9)",
+        "usage": "Luz que gira na borda dos cards tingidos."
+      },
+      "anel-base": {
+        "escuro": "rgba(255, 255, 255, 0.13)",
+        "claro": "rgba(11, 12, 19, 0.1)",
+        "usage": "Trecho apagado do anel de borda."
+      },
+      "numero-capitulo": {
+        "escuro": "rgba(255, 255, 255, 0.055)",
+        "claro": "rgba(11, 12, 19, 0.05)",
+        "usage": "Numeral gigante de capítulo, atrás do conteúdo."
+      }
+    }
+  },
+  "type": {
+    "family": "Inter",
+    "files": {
+      "400": "tipografia/web/inter-18pt-regular.woff2",
+      "500-600": "tipografia/web/inter-24pt-medium.woff2",
+      "700-800": "tipografia/web/inter-28pt-bold.woff2",
+      "700-800 italic": "tipografia/web/inter-28pt-bolditalic.woff2"
+    },
+    "styles": {
+      "mega": {
+        "fontSize": "8rem",
+        "fluid": "clamp(2.75rem, 8.5vw, 8rem)",
+        "lineHeight": 0.8,
+        "fontWeight": 800,
+        "letterSpacing": "-0.05em",
+        "usage": "Numeral de capítulo, atrás do conteúdo, a 5,5% de opacidade."
+      },
+      "display": {
+        "fontSize": "5rem",
+        "fluid": "clamp(2.25rem, 6.2vw, 5rem)",
+        "lineHeight": 1.02,
+        "fontWeight": 800,
+        "letterSpacing": "-0.045em",
+        "usage": "H1 do hero e título de capa. Uma vez por página."
+      },
+      "h2": {
+        "fontSize": "3.5rem",
+        "fluid": "clamp(1.875rem, 4.6vw, 3.5rem)",
+        "lineHeight": 1.06,
+        "fontWeight": 800,
+        "letterSpacing": "-0.035em",
+        "usage": "Título de seção ou de slide."
+      },
+      "statement": {
+        "fontSize": "3.25rem",
+        "fluid": "clamp(1.75rem, 4.4vw, 3.25rem)",
+        "lineHeight": 1.1,
+        "fontWeight": 800,
+        "letterSpacing": "-0.035em",
+        "usage": "Declaração gigante (pull statement), com a palavra-chave em itálico teal."
+      },
+      "numero": {
+        "fontSize": "2.75rem",
+        "fluid": "clamp(1.875rem, 3.6vw, 2.75rem)",
+        "lineHeight": 1.1,
+        "fontWeight": 800,
+        "letterSpacing": "-0.04em",
+        "usage": "Número de prova (+500, 30, 1), sempre em acento e com algarismos tabulares."
+      },
+      "citacao": {
+        "fontSize": "2rem",
+        "fluid": "clamp(1.375rem, 2.8vw, 2rem)",
+        "lineHeight": 1.2,
+        "fontWeight": 700,
+        "letterSpacing": "-0.03em",
+        "usage": "Citação dos fundadores e frases de assinatura."
+      },
+      "h3": {
+        "fontSize": "1.625rem",
+        "fluid": "clamp(1.25rem, 2.2vw, 1.625rem)",
+        "lineHeight": 1.25,
+        "fontWeight": 700,
+        "letterSpacing": "-0.02em",
+        "usage": "Título de card, etapa e bloco."
+      },
+      "lead": {
+        "fontSize": "1.375rem",
+        "fluid": "clamp(1.0625rem, 1.7vw, 1.375rem)",
+        "lineHeight": 1.65,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "usage": "Lead de seção, logo abaixo do título."
+      },
+      "body": {
+        "fontSize": "1.0625rem",
+        "fluid": "1.0625rem (1rem abaixo de 720 px)",
+        "lineHeight": 1.65,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "usage": "Corpo de texto."
+      },
+      "small": {
+        "fontSize": "0.9375rem",
+        "fluid": "0.9375rem",
+        "lineHeight": 1.65,
+        "fontWeight": 400,
+        "letterSpacing": "0",
+        "usage": "Texto de card, etapa, rodapé e chip."
+      },
+      "botao": {
+        "fontSize": "0.9375rem",
+        "fluid": "0.9375rem (1.0625rem no botão grande)",
+        "lineHeight": 1.2,
+        "fontWeight": 600,
+        "letterSpacing": "0.01em",
+        "usage": "Rótulo de botão e link de navegação. Nunca quebra linha."
+      },
+      "eyebrow": {
+        "fontSize": "0.8125rem",
+        "fluid": "0.8125rem",
+        "lineHeight": 1.2,
+        "fontWeight": 600,
+        "letterSpacing": "0.16em",
+        "usage": "Rótulo em caixa alta acima do título, em acento."
+      },
+      "caption": {
+        "fontSize": "0.8125rem",
+        "fluid": "0.8125rem",
+        "lineHeight": 1.5,
+        "fontWeight": 400,
+        "letterSpacing": "0.04em",
+        "usage": "Legenda de número, metadado, créditos."
+      }
+    }
+  },
+  "spacing": {
+    "gutter": {
+      "value": "4rem",
+      "fluid": "clamp(1.25rem, 5vw, 4rem)",
+      "usage": "Margem lateral da página e do container."
+    },
+    "secao": {
+      "value": "7rem",
+      "fluid": "clamp(4.25rem, 9.8vh, 7rem)",
+      "usage": "Respiro vertical de seção (metade abaixo de 720 px)."
+    },
+    "secao-alta": {
+      "value": "9.75rem",
+      "fluid": "clamp(5.5rem, 14vh, 9.75rem)",
+      "usage": "Seção alta: abertura de capítulo, declaração."
+    },
+    "cabeca": {
+      "value": "4.5rem",
+      "fluid": "clamp(2.5rem, 6vw, 4.5rem)",
+      "usage": "Do bloco de título (eyebrow + h2 + lead) ao conteúdo."
+    },
+    "grade": {
+      "value": "1.5rem",
+      "fluid": "clamp(1rem, 2vw, 1.5rem)",
+      "usage": "Vão entre cards e colunas."
+    },
+    "card": {
+      "value": "2rem",
+      "fluid": "clamp(1.5rem, 2.5vw, 2rem)",
+      "usage": "Padding interno de card."
+    },
+    "1": {
+      "value": "0.25rem",
+      "fluid": "0.25rem",
+      "usage": "Ajuste fino: ícone e rótulo colados."
+    },
+    "2": {
+      "value": "0.5rem",
+      "fluid": "0.5rem",
+      "usage": "Entre ícone e texto, entre título e subtítulo."
+    },
+    "3": {
+      "value": "0.875rem",
+      "fluid": "0.875rem",
+      "usage": "Entre botões lado a lado."
+    },
+    "4": {
+      "value": "1rem",
+      "fluid": "1rem",
+      "usage": "Entre eyebrow e título; distância da navbar à borda."
+    },
+    "6": {
+      "value": "1.5rem",
+      "fluid": "1.5rem",
+      "usage": "Entre título e lead."
+    },
+    "8": {
+      "value": "2rem",
+      "fluid": "2rem",
+      "usage": "Entre blocos de texto."
+    },
+    "alvo": {
+      "value": "44px",
+      "fluid": "44px",
+      "usage": "Alvo mínimo de toque e clique."
+    },
+    "largura-max": {
+      "value": "1600px",
+      "fluid": "1600px",
+      "usage": "Largura máxima do container."
+    }
+  },
+  "radius": {
+    "foco": {
+      "value": "4px",
+      "usage": "Anel de foco e selos mínimos."
+    },
+    "sm": {
+      "value": "8px",
+      "usage": "Links da navbar, botões de ícone pequenos."
+    },
+    "md": {
+      "value": "10px",
+      "usage": "Quadro de ícone, skip link, imagens dentro de texto."
+    },
+    "nav": {
+      "value": "14px",
+      "usage": "Navbar flutuante."
+    },
+    "foto": {
+      "value": "16px",
+      "usage": "Fotografia (fundadores, cases)."
+    },
+    "card": {
+      "value": "18px",
+      "usage": "Cards, números, faixa de marcas, citação."
+    },
+    "depoimento": {
+      "value": "24px",
+      "usage": "Card de depoimento."
+    },
+    "pill": {
+      "value": "999px",
+      "usage": "Botões, chips, setas de navegação. Botão é sempre pílula."
+    }
+  },
+  "shadow": {
+    "sombra-card": {
+      "escuro": "inset 0 -16px 24px -4px rgba(255, 255, 255, 0.1)",
+      "claro": "inset 0 -16px 24px -4px rgba(0, 112, 77, 0.06)",
+      "usage": "Luz interna que sobe da base do card tingido."
+    },
+    "sombra-depoimento": {
+      "escuro": "0 24px 48px -28px rgba(0, 0, 0, 0.9)",
+      "claro": "0 24px 48px -28px rgba(11, 12, 19, 0.35)",
+      "usage": "Sombra do card de depoimento (único card com sombra externa)."
+    },
+    "sombra-botao-hover": {
+      "escuro": "0 0 0 6px rgba(8, 255, 177, 0.14)",
+      "claro": "0 0 0 6px rgba(0, 112, 77, 0.14)",
+      "usage": "Anel suave do botão primário em hover."
+    }
+  },
+  "gradient": {
+    "card-tingido-escuro": {
+      "value": "radial-gradient(at 88% 40%, #0b0c13 0px, transparent 85%), radial-gradient(at 49% 30%, #0b0c13 0px, transparent 85%), radial-gradient(at 14% 26%, #0b0c13 0px, transparent 85%), radial-gradient(at 0% 64%, hsla(161, 100%, 52%, 0.34) 0px, transparent 85%), radial-gradient(at 41% 94%, hsla(161, 100%, 80%, 0.24) 0px, transparent 85%), radial-gradient(at 100% 99%, hsla(172, 95%, 45%, 0.38) 0px, transparent 85%)",
+      "usage": "Superfície do card no escuro (sobre background-color Azul-Escuro). Topo limpo para leitura, luz teal na base."
+    },
+    "card-tingido-claro": {
+      "value": "radial-gradient(at 88% 40%, #ffffff 0px, transparent 85%), radial-gradient(at 49% 30%, #ffffff 0px, transparent 85%), radial-gradient(at 14% 26%, #ffffff 0px, transparent 85%), radial-gradient(at 0% 64%, hsla(161, 100%, 52%, 0.22) 0px, transparent 85%), radial-gradient(at 41% 94%, hsla(161, 100%, 80%, 0.3) 0px, transparent 85%), radial-gradient(at 100% 99%, hsla(172, 95%, 45%, 0.24) 0px, transparent 85%)",
+      "usage": "Proposta. Mesma receita no claro (sobre background-color Branco): menta na base, Azul-Escuro no texto."
+    },
+    "halo-botao": {
+      "value": "radial-gradient(60% 100% at 50% 50%, rgba(8, 255, 177, 0.55), rgba(8, 255, 177, 0.28) 35%, transparent 70%)",
+      "usage": "Halo que acende abaixo do botão no hover (blur 11 px)."
+    },
+    "brilho-hero": {
+      "value": "radial-gradient(60% 45% at 78% 74%, rgba(8, 255, 177, 0.14), transparent 70%), radial-gradient(45% 40% at 46% 28%, rgba(8, 255, 177, 0.08), transparent 72%)",
+      "usage": "Luz de fundo do hero quando a animação não carrega."
+    },
+    "veu-hero": {
+      "value": "linear-gradient(100deg, #0b0c13 0%, rgba(11, 12, 19, 0.82) 30%, rgba(11, 12, 19, 0.35) 52%, rgba(11, 12, 19, 0) 72%)",
+      "usage": "Véu que garante o contraste da headline sobre imagem ou animação à direita."
+    }
+  },
+  "motion": {
+    "ease": {
+      "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "usage": "Curva única de movimento."
+    },
+    "dur": {
+      "value": "0.7s",
+      "usage": "Entrada de blocos (reveal)."
+    },
+    "dur-estado": {
+      "value": "0.3s",
+      "usage": "Hover, foco e troca de cor."
+    }
+  }
+}
