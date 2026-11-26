@@ -1,0 +1,152 @@
+/* Agência Tweed · tokens de design · gerado por fonte-editavel/build/tokens.py — não edite à mão */
+/* Tema escuro é o padrão (:root). Tema claro: [data-theme="claro"] ou .tweed-claro em qualquer contêiner. */
+
+@font-face{font-family:'Inter';src:url('../tipografia/web/inter-18pt-regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url('../tipografia/web/inter-24pt-medium.woff2') format('woff2');font-weight:500 600;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url('../tipografia/web/inter-28pt-bold.woff2') format('woff2');font-weight:700 800;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url('../tipografia/web/inter-28pt-bolditalic.woff2') format('woff2');font-weight:700 800;font-style:italic;font-display:swap}
+
+:root, [data-theme="escuro"], .tweed-escuro {
+  /* paleta */
+  --tweed-teal: #08ffb1;
+  --tweed-azul-escuro: #0b0c13;
+  --tweed-branco: #ffffff;
+  --tweed-noite: #11131c;
+  --tweed-noite-alta: #171a25;
+  --tweed-prata: #d3d7df;
+  --tweed-cinza: #a7acb9;
+  --tweed-cinza-fraco: #868da1;
+  --tweed-teal-luz: #5cffcb;
+  --tweed-nevoa: #f4f5f8;
+  --tweed-gelo: #eceef3;
+  --tweed-grafite: #4a4f60;
+  --tweed-grafite-fraco: #5f6578;
+  --tweed-teal-tinta: #00704d;
+  /* tema */
+  --tweed-superficie: var(--tweed-azul-escuro);
+  --tweed-superficie-elevada: var(--tweed-noite);
+  --tweed-superficie-elevada-2: var(--tweed-noite-alta);
+  --tweed-texto: var(--tweed-branco);
+  --tweed-texto-suave: var(--tweed-cinza);
+  --tweed-texto-fraco: var(--tweed-cinza-fraco);
+  --tweed-texto-tingido: var(--tweed-prata);
+  --tweed-acento: var(--tweed-teal);
+  --tweed-acento-forte: var(--tweed-teal);
+  --tweed-acento-lavado: rgba(8, 255, 177, 0.08);
+  --tweed-acento-borda: rgba(8, 255, 177, 0.24);
+  --tweed-botao-primario: var(--tweed-teal);
+  --tweed-botao-primario-texto: var(--tweed-azul-escuro);
+  --tweed-botao-primario-hover: var(--tweed-teal-luz);
+  --tweed-botao-ghost-fundo: rgba(11, 12, 19, 0.55);
+  --tweed-fio: rgba(255, 255, 255, 0.09);
+  --tweed-fio-suave: rgba(255, 255, 255, 0.055);
+  --tweed-fio-forte: rgba(255, 255, 255, 0.28);
+  --tweed-contorno-campo: rgba(255, 255, 255, 0.4);
+  --tweed-foco: var(--tweed-teal);
+  --tweed-logo: var(--tweed-teal);
+  --tweed-vidro: rgba(11, 12, 19, 0.72);
+  --tweed-anel: rgba(8, 255, 177, 0.95);
+  --tweed-anel-base: rgba(255, 255, 255, 0.13);
+  --tweed-numero-capitulo: rgba(255, 255, 255, 0.055);
+  --tweed-sombra-card: inset 0 -16px 24px -4px rgba(255, 255, 255, 0.1);
+  --tweed-sombra-depoimento: 0 24px 48px -28px rgba(0, 0, 0, 0.9);
+  --tweed-sombra-botao-hover: 0 0 0 6px rgba(8, 255, 177, 0.14);
+  --tweed-card-tingido: var(--tweed-card-tingido-escuro);
+  color-scheme: dark;
+}
+
+[data-theme="claro"], .tweed-claro {
+  --tweed-superficie: var(--tweed-branco);
+  --tweed-superficie-elevada: var(--tweed-nevoa);
+  --tweed-superficie-elevada-2: var(--tweed-gelo);
+  --tweed-texto: var(--tweed-azul-escuro);
+  --tweed-texto-suave: var(--tweed-grafite);
+  --tweed-texto-fraco: var(--tweed-grafite-fraco);
+  --tweed-texto-tingido: var(--tweed-grafite);
+  --tweed-acento: var(--tweed-teal-tinta);
+  --tweed-acento-forte: var(--tweed-teal);
+  --tweed-acento-lavado: rgba(0, 112, 77, 0.08);
+  --tweed-acento-borda: rgba(0, 112, 77, 0.28);
+  --tweed-botao-primario: var(--tweed-azul-escuro);
+  --tweed-botao-primario-texto: var(--tweed-teal);
+  --tweed-botao-primario-hover: var(--tweed-noite-alta);
+  --tweed-botao-ghost-fundo: rgba(255, 255, 255, 0.6);
+  --tweed-fio: rgba(11, 12, 19, 0.1);
+  --tweed-fio-suave: rgba(11, 12, 19, 0.06);
+  --tweed-fio-forte: rgba(11, 12, 19, 0.28);
+  --tweed-contorno-campo: rgba(11, 12, 19, 0.5);
+  --tweed-foco: var(--tweed-teal-tinta);
+  --tweed-logo: var(--tweed-azul-escuro);
+  --tweed-vidro: rgba(255, 255, 255, 0.8);
+  --tweed-anel: rgba(0, 112, 77, 0.9);
+  --tweed-anel-base: rgba(11, 12, 19, 0.1);
+  --tweed-numero-capitulo: rgba(11, 12, 19, 0.05);
+  --tweed-sombra-card: inset 0 -16px 24px -4px rgba(0, 112, 77, 0.06);
+  --tweed-sombra-depoimento: 0 24px 48px -28px rgba(11, 12, 19, 0.35);
+  --tweed-sombra-botao-hover: 0 0 0 6px rgba(0, 112, 77, 0.14);
+  --tweed-card-tingido: var(--tweed-card-tingido-claro);
+  color-scheme: light;
+}
+
+:root {
+  --tweed-font: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --tweed-fs-mega: clamp(2.75rem, 8.5vw, 8rem);
+  --tweed-fs-display: clamp(2.25rem, 6.2vw, 5rem);
+  --tweed-fs-h2: clamp(1.875rem, 4.6vw, 3.5rem);
+  --tweed-fs-statement: clamp(1.75rem, 4.4vw, 3.25rem);
+  --tweed-fs-numero: clamp(1.875rem, 3.6vw, 2.75rem);
+  --tweed-fs-citacao: clamp(1.375rem, 2.8vw, 2rem);
+  --tweed-fs-h3: clamp(1.25rem, 2.2vw, 1.625rem);
+  --tweed-fs-lead: clamp(1.0625rem, 1.7vw, 1.375rem);
+  --tweed-fs-body: 1.0625rem;
+  --tweed-fs-small: 0.9375rem;
+  --tweed-fs-botao: 0.9375rem;
+  --tweed-fs-eyebrow: 0.8125rem;
+  --tweed-fs-caption: 0.8125rem;
+  --tweed-space-gutter: clamp(1.25rem, 5vw, 4rem);
+  --tweed-space-secao: clamp(4.25rem, 9.8vh, 7rem);
+  --tweed-space-secao-alta: clamp(5.5rem, 14vh, 9.75rem);
+  --tweed-space-cabeca: clamp(2.5rem, 6vw, 4.5rem);
+  --tweed-space-grade: clamp(1rem, 2vw, 1.5rem);
+  --tweed-space-card: clamp(1.5rem, 2.5vw, 2rem);
+  --tweed-space-1: 0.25rem;
+  --tweed-space-2: 0.5rem;
+  --tweed-space-3: 0.875rem;
+  --tweed-space-4: 1rem;
+  --tweed-space-6: 1.5rem;
+  --tweed-space-8: 2rem;
+  --tweed-space-alvo: 44px;
+  --tweed-space-largura-max: 1600px;
+  --tweed-radius-foco: 4px;
+  --tweed-radius-sm: 8px;
+  --tweed-radius-md: 10px;
+  --tweed-radius-nav: 14px;
+  --tweed-radius-foto: 16px;
+  --tweed-radius-card: 18px;
+  --tweed-radius-depoimento: 24px;
+  --tweed-radius-pill: 999px;
+  --tweed-card-tingido-escuro: radial-gradient(at 88% 40%, #0b0c13 0px, transparent 85%), radial-gradient(at 49% 30%, #0b0c13 0px, transparent 85%), radial-gradient(at 14% 26%, #0b0c13 0px, transparent 85%), radial-gradient(at 0% 64%, hsla(161, 100%, 52%, 0.34) 0px, transparent 85%), radial-gradient(at 41% 94%, hsla(161, 100%, 80%, 0.24) 0px, transparent 85%), radial-gradient(at 100% 99%, hsla(172, 95%, 45%, 0.38) 0px, transparent 85%);
+  --tweed-card-tingido-claro: radial-gradient(at 88% 40%, #ffffff 0px, transparent 85%), radial-gradient(at 49% 30%, #ffffff 0px, transparent 85%), radial-gradient(at 14% 26%, #ffffff 0px, transparent 85%), radial-gradient(at 0% 64%, hsla(161, 100%, 52%, 0.22) 0px, transparent 85%), radial-gradient(at 41% 94%, hsla(161, 100%, 80%, 0.3) 0px, transparent 85%), radial-gradient(at 100% 99%, hsla(172, 95%, 45%, 0.24) 0px, transparent 85%);
+  --tweed-halo-botao: radial-gradient(60% 100% at 50% 50%, rgba(8, 255, 177, 0.55), rgba(8, 255, 177, 0.28) 35%, transparent 70%);
+  --tweed-brilho-hero: radial-gradient(60% 45% at 78% 74%, rgba(8, 255, 177, 0.14), transparent 70%), radial-gradient(45% 40% at 46% 28%, rgba(8, 255, 177, 0.08), transparent 72%);
+  --tweed-veu-hero: linear-gradient(100deg, #0b0c13 0%, rgba(11, 12, 19, 0.82) 30%, rgba(11, 12, 19, 0.35) 52%, rgba(11, 12, 19, 0) 72%);
+  --tweed-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --tweed-dur: 0.7s;
+  --tweed-dur-estado: 0.3s;
+}
+
+/* estilos de texto prontos */
+.tweed-mega{font-family:var(--tweed-font);font-size:var(--tweed-fs-mega);line-height:0.8;font-weight:800;letter-spacing:-0.05em}
+.tweed-display{font-family:var(--tweed-font);font-size:var(--tweed-fs-display);line-height:1.02;font-weight:800;letter-spacing:-0.045em}
+.tweed-h2{font-family:var(--tweed-font);font-size:var(--tweed-fs-h2);line-height:1.06;font-weight:800;letter-spacing:-0.035em}
+.tweed-statement{font-family:var(--tweed-font);font-size:var(--tweed-fs-statement);line-height:1.1;font-weight:800;letter-spacing:-0.035em}
+.tweed-numero{font-family:var(--tweed-font);font-size:var(--tweed-fs-numero);line-height:1.1;font-weight:800;letter-spacing:-0.04em;font-variant-numeric:tabular-nums}
+.tweed-citacao{font-family:var(--tweed-font);font-size:var(--tweed-fs-citacao);line-height:1.2;font-weight:700;letter-spacing:-0.03em}
+.tweed-h3{font-family:var(--tweed-font);font-size:var(--tweed-fs-h3);line-height:1.25;font-weight:700;letter-spacing:-0.02em}
+.tweed-lead{font-family:var(--tweed-font);font-size:var(--tweed-fs-lead);line-height:1.65;font-weight:400;letter-spacing:0}
+.tweed-body{font-family:var(--tweed-font);font-size:var(--tweed-fs-body);line-height:1.65;font-weight:400;letter-spacing:0}
+.tweed-small{font-family:var(--tweed-font);font-size:var(--tweed-fs-small);line-height:1.65;font-weight:400;letter-spacing:0}
+.tweed-botao{font-family:var(--tweed-font);font-size:var(--tweed-fs-botao);line-height:1.2;font-weight:600;letter-spacing:0.01em}
+.tweed-eyebrow{font-family:var(--tweed-font);font-size:var(--tweed-fs-eyebrow);line-height:1.2;font-weight:600;letter-spacing:0.16em;text-transform:uppercase}
+.tweed-caption{font-family:var(--tweed-font);font-size:var(--tweed-fs-caption);line-height:1.5;font-weight:400;letter-spacing:0.04em}
+.tweed-em, .tweed em{font-style:italic;color:var(--tweed-acento)}
